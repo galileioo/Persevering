@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E478BA641E51A0250065C128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478BA631E51A0250065C128 /* AppDelegate.swift */; };
-		E478BA661E51A0250065C128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478BA651E51A0250065C128 /* ViewController.swift */; };
-		E478BA691E51A0250065C128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E478BA671E51A0250065C128 /* Main.storyboard */; };
 		E478BA6B1E51A0250065C128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E478BA6A1E51A0250065C128 /* Assets.xcassets */; };
 		E478BA6E1E51A0250065C128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E478BA6C1E51A0250065C128 /* LaunchScreen.storyboard */; };
+		E478BA761E51A3B00065C128 /* LLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478BA751E51A3B00065C128 /* LLRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E478BA601E51A0240065C128 /* Persevering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persevering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E478BA631E51A0250065C128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E478BA651E51A0250065C128 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E478BA681E51A0250065C128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E478BA6A1E51A0250065C128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E478BA6D1E51A0250065C128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E478BA6F1E51A0250065C128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E478BA751E51A3B00065C128 /* LLRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				E478BA631E51A0250065C128 /* AppDelegate.swift */,
-				E478BA651E51A0250065C128 /* ViewController.swift */,
-				E478BA671E51A0250065C128 /* Main.storyboard */,
+				E478BA751E51A3B00065C128 /* LLRootViewController.swift */,
 				E478BA6A1E51A0250065C128 /* Assets.xcassets */,
 				E478BA6C1E51A0250065C128 /* LaunchScreen.storyboard */,
 				E478BA6F1E51A0250065C128 /* Info.plist */,
@@ -126,7 +123,6 @@
 			files = (
 				E478BA6E1E51A0250065C128 /* LaunchScreen.storyboard in Resources */,
 				E478BA6B1E51A0250065C128 /* Assets.xcassets in Resources */,
-				E478BA691E51A0250065C128 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E478BA661E51A0250065C128 /* ViewController.swift in Sources */,
+				E478BA761E51A3B00065C128 /* LLRootViewController.swift in Sources */,
 				E478BA641E51A0250065C128 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,14 +141,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E478BA671E51A0250065C128 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E478BA681E51A0250065C128 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E478BA6C1E51A0250065C128 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,6 +249,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WUQX6BVSH8;
 				INFOPLIST_FILE = Persevering/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.galileioo.Persevering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +263,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WUQX6BVSH8;
 				INFOPLIST_FILE = Persevering/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.galileioo.Persevering;
 				PRODUCT_NAME = "$(TARGET_NAME)";
