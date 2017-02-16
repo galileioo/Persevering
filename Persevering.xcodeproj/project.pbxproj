@@ -11,6 +11,7 @@
 		E478BA6B1E51A0250065C128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E478BA6A1E51A0250065C128 /* Assets.xcassets */; };
 		E478BA6E1E51A0250065C128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E478BA6C1E51A0250065C128 /* LaunchScreen.storyboard */; };
 		E478BA761E51A3B00065C128 /* LLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478BA751E51A3B00065C128 /* LLRootViewController.swift */; };
+		E478BA781E54096E0065C128 /* LLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478BA771E54096E0065C128 /* LLBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E478BA6D1E51A0250065C128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E478BA6F1E51A0250065C128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E478BA751E51A3B00065C128 /* LLRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLRootViewController.swift; sourceTree = "<group>"; };
+		E478BA771E54096E0065C128 /* LLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				E478BA631E51A0250065C128 /* AppDelegate.swift */,
 				E478BA751E51A3B00065C128 /* LLRootViewController.swift */,
+				E478BA771E54096E0065C128 /* LLBaseViewController.swift */,
 				E478BA6A1E51A0250065C128 /* Assets.xcassets */,
 				E478BA6C1E51A0250065C128 /* LaunchScreen.storyboard */,
 				E478BA6F1E51A0250065C128 /* Info.plist */,
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E478BA781E54096E0065C128 /* LLBaseViewController.swift in Sources */,
 				E478BA761E51A3B00065C128 /* LLRootViewController.swift in Sources */,
 				E478BA641E51A0250065C128 /* AppDelegate.swift in Sources */,
 			);

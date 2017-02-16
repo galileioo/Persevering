@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LLRootViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class LLRootViewController: LLBaseViewController,UITableViewDelegate,UITableViewDataSource {
 
     var targetTableView : UITableView!
     
@@ -16,12 +16,15 @@ class LLRootViewController: UIViewController,UITableViewDelegate,UITableViewData
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor.white
         targetTableView = UITableView(frame: UIScreen.main.bounds)
         targetTableView.delegate = self
         targetTableView.dataSource = self
         self.view.addSubview(targetTableView)
         targetTableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: "cell")
+        
+        let item = UIBarButtonItem.init(title:"添加目标", style: UIBarButtonItemStyle.plain, target: self, action: #selector(addtarget(right:)))
+        self.navigationItem.rightBarButtonItem = item
+        
         
     }
     
@@ -38,5 +41,10 @@ class LLRootViewController: UIViewController,UITableViewDelegate,UITableViewData
         
         return cell
     }
+    func addtarget(right:UIBarButtonItem) {
+        NSLog("测试添加呵呵")
+        
+    }
+    
 
 }
