@@ -43,6 +43,9 @@ class LLRootViewController: LLBaseViewController,UITableViewDelegate,UITableView
     }
     func addtarget(right:UIBarButtonItem) {
         NSLog("测试添加呵呵")
+        let viewController = LLAddTargetViewController(nibName: "LLAddTargetViewController", bundle: nil)
+        self.navigationController?.pushViewController(viewController, animated: true)
+        
         
     }
     
